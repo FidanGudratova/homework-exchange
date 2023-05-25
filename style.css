@@ -1,0 +1,15 @@
+.main {
+    background-color: beige;
+}
+span {
+    background-color: rgb(204, 194, 148);
+}
+select {
+    background-color: bisque;
+}
+button {
+    background-color: rgb(77, 139, 180);
+}
+#result {
+    background-color: rgb(215, 243, 148);
+}

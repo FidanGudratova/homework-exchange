@@ -1,0 +1,40 @@
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCHANGE RATE</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <h1>EXCHANGE RATE</h1>
+    <div>
+        <span>AMOUNT</span>
+        <input type="number" id="amount">
+    </div>
+    <div>
+        <span>ENTER CURRENCY</span>
+        <select id="fromCurrency">
+            <option value="AZN">AZN</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+    </div>
+    <div>
+        <span>CHOOSE CURRENCY</span>
+        <select id="toCurrency">
+            <option value="AZN">AZN</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+    </div>
+    <button id="convert">CONVERT</button>
+    <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
